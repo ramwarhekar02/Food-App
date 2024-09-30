@@ -1,0 +1,412 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "General Sans Medium";
+}
+
+html, body { 
+    height: 100%;
+    width: 100%;
+}
+
+.page{ 
+    padding-bottom: 50px;
+}
+
+.nav {
+    padding: 20px 10px;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    width: 100%;
+}
+
+.nav-left {
+    color: orange;
+    text-transform: uppercase;
+}
+
+.nav h2 { 
+    cursor: pointer;
+}
+
+.nav .nav-right{
+    display: flex;
+}
+
+.nav-right button {
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 999;
+    font-size: 1rem;
+    background: orange;
+    outline: 0;
+    border: 0;
+    border-radius: 20px; 
+    padding: 10px 25px;
+}
+
+.out-menu { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 0.7rem;
+    gap: 30px;
+    display: flex;
+}
+
+.menubar { 
+    display: none;
+}
+
+.main{
+    gap: 20px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10vw;
+}
+
+.headings h1{
+    font-weight: 900;
+    font-size: 3.4vw;
+    text-transform: uppercase;
+}
+
+.desc{
+    color: grey;
+    font-size: 1.2vw;
+    padding-top: 30px;
+}
+
+.headings button {
+    cursor: pointer;
+    background: orange;
+    font-size: 1rem;
+    font-weight: 900;
+    border: 0;
+    outline: 0;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.food { 
+    margin-top: -40px;
+}
+
+.main img{
+    width: 35vw;
+}
+
+.main-two{
+    gap: 20px;
+    display: flex;
+    margin-left: 6vw;
+    margin-top: 200px;
+}
+
+.food-two{ 
+    margin-top: -20px;
+}
+
+.food-two img {
+    width: 36vw;
+}
+
+.quote-two{ 
+    padding-top: 20px;
+}
+
+.main-two h1 {
+    font-weight: 900;
+    font-size: 3.4vw;
+    text-transform: uppercase;
+}
+
+.desc-two {
+    color: grey;
+    font-size: 1.2vw;
+    padding-top: 30px;
+}
+
+.btns{ 
+    gap: 30px;
+    display: flex;
+}
+
+.btns .learn-more{ 
+    background: orange;
+    font-size: 1rem;
+    font-weight: 900;
+    border: 0;
+    outline: 0;
+    margin-top: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+.btns .video{
+    border: 0;
+    align-items: center;
+    background: transparent;
+    gap: 10px;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 900;
+    outline: 0;
+    margin-top: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+.video #play{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 20px;
+    background: black;
+}
+
+.works { 
+    margin-top: 150px;
+    text-align: center;
+}
+
+.works h3 { 
+    padding-bottom: 20px;
+    color: orange;
+}
+
+.works h1{
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+
+.works h4 { 
+    color: grey;
+    padding-top: 20px;
+}
+
+.sections {
+    flex: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    gap: 40px;
+    display: flex;
+}
+
+.first, .second, .third{
+    color: orange;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+    height: 300px; 
+    width: 220px;
+}
+
+.first h3{ 
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.second h3{ 
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.third h3{ 
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.sections .description {
+    margin-top: 50px;
+    color: black;
+}
+
+.first p { 
+    font-size: .9rem;
+    color: grey;
+}
+
+.second p { 
+    color: grey;
+    font-size: .9rem;
+}
+
+.third p { 
+    color: grey;
+    font-size: .9rem;
+}
+
+.reviews { 
+    margin-top: 150px;
+    text-align: center;
+}
+
+.reviews h3 { 
+    padding-bottom: 20px;
+    color: orange;
+}
+
+.reviews h1{
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+
+.reviews h4 { 
+    color: grey;
+    padding-top: 20px;
+}
+
+.comments {
+    margin-top: 150px;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+.first-comment {
+    border-radius: 20px;
+    background: whitesmoke;
+    text-align: center;
+    padding: 20px 20px; 
+    width: 30vw;
+    height: auto;
+}
+
+.ratings {
+    gap: 5px;
+    color: orange;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0px;
+    display: flex;
+}
+
+.comments img {
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-color: grey;
+    height: 60px; 
+    width: 60px;
+}
+
+.second-comment {
+    border-radius: 20px;
+    background: whitesmoke;
+    text-align: center;
+    padding: 20px 20px; 
+    width: 30vw;
+    height: auto;
+}
+
+.questions {
+    font-size: 2vw;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.help{
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30vw;
+    margin-left: 30vw;
+    margin-top: 100px;
+    background-color: whitesmoke;
+    margin-bottom: 200px;
+    width: 40vw;
+}
+
+.help input {
+    outline: 0; 
+    border: 0;
+    background-color: whitesmoke;
+    flex: 1;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.help button {
+    color: white;
+    font-weight: 999;
+    letter-spacing: 2px;
+    background: orange;
+    outline: 0;
+    border: 0;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    padding: 5px 40px;
+    cursor: pointer;
+}
+
+.footer {
+    background: whitesmoke;
+    color: grey;
+    display: flex;
+    padding: 30px;
+    margin-top: 150px;
+    max-width: 80%;
+    width: 100%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 100px;
+}
+
+.footer h1 { 
+    padding-bottom: 40px;
+    font-size: 2rem;
+}
+
+.footer .left {
+    padding: 40px;
+    color: grey;
+    text-transform: uppercase;
+    width: 30vw;
+}
+
+.footer .right {
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1rem;
+    display: flex;
+    padding: 30px;
+}
+
+.right ul li{
+    line-height: 2;
+    list-style: none;
+}
+
+@media (max-width: 900px) {
+    .page {
+        background: red;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .out-menu { 
+        display: none;
+    }
+    .menubar {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    
+}
